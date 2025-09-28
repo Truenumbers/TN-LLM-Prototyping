@@ -11,15 +11,34 @@ tnRest = "http://gov.truenumbers.com/truenumbers-rest-api"
 
 
 def queryTn(nSpace, theQuery, limit, offset):
-    
-    parms = { "numberspace":nSpace,"limit":limit,"offset":offset}
-    res = requests.post(tnRest + "/v2/numberflow/tnql", 
-                params = parms,
-                data = {"tnql":theQuery})
+
+    parms = {"numberspace": nSpace, "limit": limit, "offset": offset}
+    res = requests.post(
+        tnRest + "/v2/numberflow/tnql", params=parms, data={"tnql": theQuery}
+    )
     if res.status_code == 200:
         return res.json()
     else:
         return None
+
+
+# Get phrases
+# taxType can be subject, property, tags or value
+# NOTE:  "value" returns all kinds of value, must test if type is srd
+
+
+def getPhrases(nSpace, taxType, theQuery, limit, offset):
+    parms = {"numberspace": nSpace, "limit": limit, "offset": offset}
+    res = requests.post(
+        tnRest + "/v2/taxonomy/distinct",
+        params=parms,
+        data={"taxonomyType": taxType, "tnql": theQuery},
+    )
+    if res.status_code == 200:
+        return res.json()
+    else:
+        return None
+
 
 ## LLM Tools
 
@@ -28,6 +47,7 @@ def queryTn(nSpace, theQuery, limit, offset):
 llmHost = "http://192.168.40.180:11434"
 
 MODEL = "llama3.1:8b"
+
 
 def chat_cycle(user_input):
     """
@@ -43,26 +63,21 @@ def chat_cycle(user_input):
         }
     ]
 
-   # Initialize LM Studio client
+    # Initialize LM Studio client
     client = ollama.Client(host=llmHost)
 
-    messages.append({"role": "user", "content": user_input })
+    messages.append({"role": "user", "content": user_input})
     try:
         response = client.chat(
-            model=MODEL,
-            messages=messages,
-            keep_alive=-1,
-            options={'num_ctx': 8192}
+            model=MODEL, messages=messages, keep_alive=-1, options={"num_ctx": 8192}
         )
 
-        
         # Handle regular response
-    
 
         return response.message.content
 
     except Exception as e:
-       print(
+        print(
             f"\nError chatting with the Ollama server!\n\n"
             f"Please ensure:\n"
             f"1. Ollama server is running \n"
@@ -70,4 +85,3 @@ def chat_cycle(user_input):
             f"3. Model '{MODEL}' is loaded, or that just-in-time model loading is enabled\n\n"
             f"Error details: {str(e)}\n"
         )
-    
