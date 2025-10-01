@@ -1,0 +1,663 @@
+STONE-1 WP-123 of F-18C-D CLASS US MARINE CORPS AIRCRAFT (rapt:blue:air,UUID:USed203e2cd0cd7) has name = "STONE-1" (rapt:blue:air, UUID:USed203e2cd0cd7, RAPT:ASSET, map:color:aqua);
+ and has class = "F-18C-D" (rapt:blue:air, UUID:USed203e2cd0cd7, RAPT:ASSET, map:color:aqua);
+ and has uuid = "USed203e2cd0cd7" (rapt:blue:air, UUID:USed203e2cd0cd7, RAPT:ASSET, map:color:aqua);
+ and has flag = "US" (rapt:blue:air, UUID:USed203e2cd0cd7, RAPT:ASSET, map:color:aqua);
+ and has threat = "FRD" (rapt:blue:air, UUID:USed203e2cd0cd7, RAPT:ASSET, map:color:aqua);
+ and has pennant = 1 (rapt:blue:air, UUID:USed203e2cd0cd7, RAPT:ASSET, map:color:aqua);
+
+weapons inventory of STONE-1 WP-123 of F-18C-D CLASS US MARINE CORPS AIRCRAFT (rapt:blue:air,UUID:USed203e2cd0cd7) has AGM-158C LRASM missile inventory = 2 (attribute:unit, rapt:blue:air, UUID:USed203e2cd0cd7);
+
+current position of STONE-1 WP-123 of F-18C-D CLASS US MARINE CORPS AIRCRAFT (rapt:blue:air,UUID:USed203e2cd0cd7) has latitude = 36.44044 deg (rapt:blue:air, UUID:USed203e2cd0cd7, RAPT:ASSET, map:color:aqua);
+ and has longitude = -69.43778 deg (rapt:blue:air, UUID:USed203e2cd0cd7, RAPT:ASSET, map:color:aqua);
+ and has dtg = 1729134062298 (rapt:blue:air, UUID:USed203e2cd0cd7, RAPT:ASSET, map:color:aqua);
+
+STONE-2 WP-234 of F-18C-D CLASS US MARINE CORPS AIRCRAFT (rapt:blue:air,UUID:USd3249342e7afe) has name = "STONE-2" (rapt:blue:air, UUID:USd3249342e7afe, RAPT:ASSET, map:color:aqua);
+ and has class = "F-18C-D" (rapt:blue:air, UUID:USd3249342e7afe, RAPT:ASSET, map:color:aqua);
+ and has uuid = "USd3249342e7afe" (rapt:blue:air, UUID:USd3249342e7afe, RAPT:ASSET, map:color:aqua);
+ and has flag = "US" (rapt:blue:air, UUID:USd3249342e7afe, RAPT:ASSET, map:color:aqua);
+ and has threat = "FRD" (rapt:blue:air, UUID:USd3249342e7afe, RAPT:ASSET, map:color:aqua);
+ and has pennant = 2 (rapt:blue:air, UUID:USd3249342e7afe, RAPT:ASSET, map:color:aqua);
+
+weapons inventory of STONE-2 WP-234 of F-18C-D CLASS US MARINE CORPS AIRCRAFT (rapt:blue:air,UUID:USd3249342e7afe) has AGM-158C LRASM missile inventory = 2 (attribute:unit, rapt:blue:air, UUID:USd3249342e7afe);
+
+current position of STONE-2 WP-234 of F-18C-D CLASS US MARINE CORPS AIRCRAFT (rapt:blue:air,UUID:USd3249342e7afe) has latitude = 36.1728 deg (rapt:blue:air, UUID:USd3249342e7afe, RAPT:ASSET, map:color:aqua);
+ and has longitude = -69.62455 deg (rapt:blue:air, UUID:USd3249342e7afe, RAPT:ASSET, map:color:aqua);
+ and has dtg = 1729134062298 (rapt:blue:air, UUID:USd3249342e7afe, RAPT:ASSET, map:color:aqua);
+
+LIGHTNING-1 BF-155 of F-35B CLASS US MARINE CORPS AIRCRAFT (rapt:blue:air,UUID:US034c07261df0e) has name = "LIGHTNING-1" (rapt:blue:air, UUID:US034c07261df0e, RAPT:ASSET, map:color:aqua);
+ and has class = "F-35B" (rapt:blue:air, UUID:US034c07261df0e, RAPT:ASSET, map:color:aqua);
+ and has uuid = "US034c07261df0e" (rapt:blue:air, UUID:US034c07261df0e, RAPT:ASSET, map:color:aqua);
+ and has flag = "US" (rapt:blue:air, UUID:US034c07261df0e, RAPT:ASSET, map:color:aqua);
+ and has threat = "FRD" (rapt:blue:air, UUID:US034c07261df0e, RAPT:ASSET, map:color:aqua);
+ and has pennant = 1 (rapt:blue:air, UUID:US034c07261df0e, RAPT:ASSET, map:color:aqua);
+
+weapons inventory of LIGHTNING-1 BF-155 of F-35B CLASS US MARINE CORPS AIRCRAFT (rapt:blue:air,UUID:US034c07261df0e) has AGM-158C LRASM missile inventory = 2 (attribute:unit, rapt:blue:air, UUID:US034c07261df0e);
+
+current position of LIGHTNING-1 BF-155 of F-35B CLASS US MARINE CORPS AIRCRAFT (rapt:blue:air,UUID:US034c07261df0e) has latitude = 31.69909 deg (rapt:blue:air, UUID:US034c07261df0e, RAPT:ASSET, map:color:aqua);
+ and has longitude = -70.02271 deg (rapt:blue:air, UUID:US034c07261df0e, RAPT:ASSET, map:color:aqua);
+ and has dtg = 1729134062298 (rapt:blue:air, UUID:US034c07261df0e, RAPT:ASSET, map:color:aqua);
+
+LIGHTNING-2 BF-159 of F-35B CLASS US MARINE CORPS AIRCRAFT (rapt:blue:air,UUID:USf9207e5963758) has name = "LIGHTNING-2" (rapt:blue:air, UUID:USf9207e5963758, RAPT:ASSET, map:color:aqua);
+ and has class = "F-35B" (rapt:blue:air, UUID:USf9207e5963758, RAPT:ASSET, map:color:aqua);
+ and has uuid = "USf9207e5963758" (rapt:blue:air, UUID:USf9207e5963758, RAPT:ASSET, map:color:aqua);
+ and has flag = "US" (rapt:blue:air, UUID:USf9207e5963758, RAPT:ASSET, map:color:aqua);
+ and has threat = "FRD" (rapt:blue:air, UUID:USf9207e5963758, RAPT:ASSET, map:color:aqua);
+ and has pennant = 2 (rapt:blue:air, UUID:USf9207e5963758, RAPT:ASSET, map:color:aqua);
+
+weapons inventory of LIGHTNING-2 BF-159 of F-35B CLASS US MARINE CORPS AIRCRAFT (rapt:blue:air,UUID:USf9207e5963758) has AGM-158C LRASM missile inventory = 2 (attribute:unit, rapt:blue:air, UUID:USf9207e5963758);
+
+current position of LIGHTNING-2 BF-159 of F-35B CLASS US MARINE CORPS AIRCRAFT (rapt:blue:air,UUID:USf9207e5963758) has latitude = 31.23055 deg (rapt:blue:air, UUID:USf9207e5963758, RAPT:ASSET, map:color:aqua);
+ and has longitude = -70.31934 deg (rapt:blue:air, UUID:USf9207e5963758, RAPT:ASSET, map:color:aqua);
+ and has dtg = 1729134062298 (rapt:blue:air, UUID:USf9207e5963758, RAPT:ASSET, map:color:aqua);
+
+HIMARS-1 BTRY of HIMARS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:USadcf79f551a3e) has name = "HIMARS-1" (rapt:blue:land, UUID:USadcf79f551a3e, RAPT:ASSET, map:color:teal);
+ and has class = "HIMARS" (rapt:blue:land, UUID:USadcf79f551a3e, RAPT:ASSET, map:color:teal);
+ and has uuid = "USadcf79f551a3e" (rapt:blue:land, UUID:USadcf79f551a3e, RAPT:ASSET, map:color:teal);
+ and has flag = "US" (rapt:blue:land, UUID:USadcf79f551a3e, RAPT:ASSET, map:color:teal);
+ and has threat = "FRD" (rapt:blue:land, UUID:USadcf79f551a3e, RAPT:ASSET, map:color:teal);
+ and has pennant = 1 (rapt:blue:land, UUID:USadcf79f551a3e, RAPT:ASSET, map:color:teal);
+
+weapons inventory of HIMARS-1 BTRY of HIMARS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:USadcf79f551a3e) has PrSM missile inventory = 2 (attribute:unit, rapt:blue:land, UUID:USadcf79f551a3e);
+
+current position of HIMARS-1 BTRY of HIMARS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:USadcf79f551a3e) has latitude = 32.31564 deg (rapt:blue:land, UUID:USadcf79f551a3e, RAPT:ASSET, map:color:teal);
+ and has longitude = -64.84565 deg (rapt:blue:land, UUID:USadcf79f551a3e, RAPT:ASSET, map:color:teal);
+ and has dtg = 1729134062298 (rapt:blue:land, UUID:USadcf79f551a3e, RAPT:ASSET, map:color:teal);
+
+HIMARS-2 BTRY of HIMARS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:US43ef879c0f2c9) has name = "HIMARS-2" (rapt:blue:land, UUID:US43ef879c0f2c9, RAPT:ASSET, map:color:teal);
+ and has class = "HIMARS" (rapt:blue:land, UUID:US43ef879c0f2c9, RAPT:ASSET, map:color:teal);
+ and has uuid = "US43ef879c0f2c9" (rapt:blue:land, UUID:US43ef879c0f2c9, RAPT:ASSET, map:color:teal);
+ and has flag = "US" (rapt:blue:land, UUID:US43ef879c0f2c9, RAPT:ASSET, map:color:teal);
+ and has threat = "FRD" (rapt:blue:land, UUID:US43ef879c0f2c9, RAPT:ASSET, map:color:teal);
+ and has pennant = 2 (rapt:blue:land, UUID:US43ef879c0f2c9, RAPT:ASSET, map:color:teal);
+
+weapons inventory of HIMARS-2 BTRY of HIMARS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:US43ef879c0f2c9) has PrSM missile inventory = 2 (attribute:unit, rapt:blue:land, UUID:US43ef879c0f2c9);
+
+current position of HIMARS-2 BTRY of HIMARS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:US43ef879c0f2c9) has latitude = 32.3048 deg (rapt:blue:land, UUID:US43ef879c0f2c9, RAPT:ASSET, map:color:teal);
+ and has longitude = -64.87998 deg (rapt:blue:land, UUID:US43ef879c0f2c9, RAPT:ASSET, map:color:teal);
+ and has dtg = 1729134062298 (rapt:blue:land, UUID:US43ef879c0f2c9, RAPT:ASSET, map:color:teal);
+
+HIMARS-3 BTRY of HIMARS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:US558b230724f51) has name = "HIMARS-3" (rapt:blue:land, UUID:US558b230724f51, RAPT:ASSET, map:color:teal);
+ and has class = "HIMARS" (rapt:blue:land, UUID:US558b230724f51, RAPT:ASSET, map:color:teal);
+ and has uuid = "US558b230724f51" (rapt:blue:land, UUID:US558b230724f51, RAPT:ASSET, map:color:teal);
+ and has flag = "US" (rapt:blue:land, UUID:US558b230724f51, RAPT:ASSET, map:color:teal);
+ and has threat = "FRD" (rapt:blue:land, UUID:US558b230724f51, RAPT:ASSET, map:color:teal);
+ and has pennant = 3 (rapt:blue:land, UUID:US558b230724f51, RAPT:ASSET, map:color:teal);
+
+weapons inventory of HIMARS-3 BTRY of HIMARS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:US558b230724f51) has PrSM missile inventory = 2 (attribute:unit, rapt:blue:land, UUID:US558b230724f51);
+
+current position of HIMARS-3 BTRY of HIMARS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:US558b230724f51) has latitude = 32.28169 deg (rapt:blue:land, UUID:US558b230724f51, RAPT:ASSET, map:color:teal);
+ and has longitude = -64.88625 deg (rapt:blue:land, UUID:US558b230724f51, RAPT:ASSET, map:color:teal);
+ and has dtg = 1729134062298 (rapt:blue:land, UUID:US558b230724f51, RAPT:ASSET, map:color:teal);
+
+NMESIS-1 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:USd48b2159f457c) has name = "NMESIS-1" (rapt:blue:land, UUID:USd48b2159f457c, RAPT:ASSET, map:color:teal);
+ and has class = "NMESIS" (rapt:blue:land, UUID:USd48b2159f457c, RAPT:ASSET, map:color:teal);
+ and has uuid = "USd48b2159f457c" (rapt:blue:land, UUID:USd48b2159f457c, RAPT:ASSET, map:color:teal);
+ and has flag = "US" (rapt:blue:land, UUID:USd48b2159f457c, RAPT:ASSET, map:color:teal);
+ and has threat = "FRD" (rapt:blue:land, UUID:USd48b2159f457c, RAPT:ASSET, map:color:teal);
+ and has pennant = 1 (rapt:blue:land, UUID:USd48b2159f457c, RAPT:ASSET, map:color:teal);
+
+weapons inventory of NMESIS-1 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:USd48b2159f457c) has RGM-184A NSM Naval Strike missile inventory = 2 (attribute:unit, rapt:blue:land, UUID:USd48b2159f457c);
+
+current position of NMESIS-1 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:USd48b2159f457c) has latitude = 33.88216 deg (rapt:blue:land, UUID:USd48b2159f457c, RAPT:ASSET, map:color:teal);
+ and has longitude = -74.36022 deg (rapt:blue:land, UUID:USd48b2159f457c, RAPT:ASSET, map:color:teal);
+ and has dtg = 1729134062298 (rapt:blue:land, UUID:USd48b2159f457c, RAPT:ASSET, map:color:teal);
+
+NMESIS-10 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:USd94278f6227d0) has name = "NMESIS-10" (rapt:blue:land, UUID:USd94278f6227d0, RAPT:ASSET, map:color:teal);
+ and has class = "NMESIS" (rapt:blue:land, UUID:USd94278f6227d0, RAPT:ASSET, map:color:teal);
+ and has uuid = "USd94278f6227d0" (rapt:blue:land, UUID:USd94278f6227d0, RAPT:ASSET, map:color:teal);
+ and has flag = "US" (rapt:blue:land, UUID:USd94278f6227d0, RAPT:ASSET, map:color:teal);
+ and has threat = "FRD" (rapt:blue:land, UUID:USd94278f6227d0, RAPT:ASSET, map:color:teal);
+ and has pennant = 10 (rapt:blue:land, UUID:USd94278f6227d0, RAPT:ASSET, map:color:teal);
+
+weapons inventory of NMESIS-10 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:USd94278f6227d0) has RGM-184A NSM Naval Strike missile inventory = 2 (attribute:unit, rapt:blue:land, UUID:USd94278f6227d0);
+
+current position of NMESIS-10 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:USd94278f6227d0) has latitude = 34.60399 deg (rapt:blue:land, UUID:USd94278f6227d0, RAPT:ASSET, map:color:teal);
+ and has longitude = -72.53921 deg (rapt:blue:land, UUID:USd94278f6227d0, RAPT:ASSET, map:color:teal);
+ and has dtg = 1729134062298 (rapt:blue:land, UUID:USd94278f6227d0, RAPT:ASSET, map:color:teal);
+
+NMESIS-11 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:US6d822e90f36b2) has name = "NMESIS-11" (rapt:blue:land, UUID:US6d822e90f36b2, RAPT:ASSET, map:color:teal);
+ and has class = "NMESIS" (rapt:blue:land, UUID:US6d822e90f36b2, RAPT:ASSET, map:color:teal);
+ and has uuid = "US6d822e90f36b2" (rapt:blue:land, UUID:US6d822e90f36b2, RAPT:ASSET, map:color:teal);
+ and has flag = "US" (rapt:blue:land, UUID:US6d822e90f36b2, RAPT:ASSET, map:color:teal);
+ and has threat = "FRD" (rapt:blue:land, UUID:US6d822e90f36b2, RAPT:ASSET, map:color:teal);
+ and has pennant = 11 (rapt:blue:land, UUID:US6d822e90f36b2, RAPT:ASSET, map:color:teal);
+
+weapons inventory of NMESIS-11 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:US6d822e90f36b2) has RGM-184A NSM Naval Strike missile inventory = 2 (attribute:unit, rapt:blue:land, UUID:US6d822e90f36b2);
+
+current position of NMESIS-11 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:US6d822e90f36b2) has latitude = 34.50446 deg (rapt:blue:land, UUID:US6d822e90f36b2, RAPT:ASSET, map:color:teal);
+ and has longitude = -72.58564 deg (rapt:blue:land, UUID:US6d822e90f36b2, RAPT:ASSET, map:color:teal);
+ and has dtg = 1729134062298 (rapt:blue:land, UUID:US6d822e90f36b2, RAPT:ASSET, map:color:teal);
+
+NMESIS-12 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:USbd977f315e8d8) has name = "NMESIS-12" (rapt:blue:land, UUID:USbd977f315e8d8, RAPT:ASSET, map:color:teal);
+ and has class = "NMESIS" (rapt:blue:land, UUID:USbd977f315e8d8, RAPT:ASSET, map:color:teal);
+ and has uuid = "USbd977f315e8d8" (rapt:blue:land, UUID:USbd977f315e8d8, RAPT:ASSET, map:color:teal);
+ and has flag = "US" (rapt:blue:land, UUID:USbd977f315e8d8, RAPT:ASSET, map:color:teal);
+ and has threat = "FRD" (rapt:blue:land, UUID:USbd977f315e8d8, RAPT:ASSET, map:color:teal);
+ and has pennant = 12 (rapt:blue:land, UUID:USbd977f315e8d8, RAPT:ASSET, map:color:teal);
+
+weapons inventory of NMESIS-12 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:USbd977f315e8d8) has RGM-184A NSM Naval Strike missile inventory = 2 (attribute:unit, rapt:blue:land, UUID:USbd977f315e8d8);
+
+current position of NMESIS-12 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:USbd977f315e8d8) has latitude = 34.40028 deg (rapt:blue:land, UUID:USbd977f315e8d8, RAPT:ASSET, map:color:teal);
+ and has longitude = -72.64606 deg (rapt:blue:land, UUID:USbd977f315e8d8, RAPT:ASSET, map:color:teal);
+ and has dtg = 1729134062298 (rapt:blue:land, UUID:USbd977f315e8d8, RAPT:ASSET, map:color:teal);
+
+NMESIS-13 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:USf384ae632cee4) has name = "NMESIS-13" (rapt:blue:land, UUID:USf384ae632cee4, RAPT:ASSET, map:color:teal);
+ and has class = "NMESIS" (rapt:blue:land, UUID:USf384ae632cee4, RAPT:ASSET, map:color:teal);
+ and has uuid = "USf384ae632cee4" (rapt:blue:land, UUID:USf384ae632cee4, RAPT:ASSET, map:color:teal);
+ and has flag = "US" (rapt:blue:land, UUID:USf384ae632cee4, RAPT:ASSET, map:color:teal);
+ and has threat = "FRD" (rapt:blue:land, UUID:USf384ae632cee4, RAPT:ASSET, map:color:teal);
+ and has pennant = 13 (rapt:blue:land, UUID:USf384ae632cee4, RAPT:ASSET, map:color:teal);
+
+weapons inventory of NMESIS-13 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:USf384ae632cee4) has RGM-184A NSM Naval Strike missile inventory = 2 (attribute:unit, rapt:blue:land, UUID:USf384ae632cee4);
+
+current position of NMESIS-13 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:USf384ae632cee4) has latitude = 33.65824 deg (rapt:blue:land, UUID:USf384ae632cee4, RAPT:ASSET, map:color:teal);
+ and has longitude = -73.11298 deg (rapt:blue:land, UUID:USf384ae632cee4, RAPT:ASSET, map:color:teal);
+ and has dtg = 1729134062298 (rapt:blue:land, UUID:USf384ae632cee4, RAPT:ASSET, map:color:teal);
+
+NMESIS-14 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:US3c61c69dbeb9c) has name = "NMESIS-14" (rapt:blue:land, UUID:US3c61c69dbeb9c, RAPT:ASSET, map:color:teal);
+ and has class = "NMESIS" (rapt:blue:land, UUID:US3c61c69dbeb9c, RAPT:ASSET, map:color:teal);
+ and has uuid = "US3c61c69dbeb9c" (rapt:blue:land, UUID:US3c61c69dbeb9c, RAPT:ASSET, map:color:teal);
+ and has flag = "US" (rapt:blue:land, UUID:US3c61c69dbeb9c, RAPT:ASSET, map:color:teal);
+ and has threat = "FRD" (rapt:blue:land, UUID:US3c61c69dbeb9c, RAPT:ASSET, map:color:teal);
+ and has pennant = 14 (rapt:blue:land, UUID:US3c61c69dbeb9c, RAPT:ASSET, map:color:teal);
+
+weapons inventory of NMESIS-14 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:US3c61c69dbeb9c) has RGM-184A NSM Naval Strike missile inventory = 2 (attribute:unit, rapt:blue:land, UUID:US3c61c69dbeb9c);
+
+current position of NMESIS-14 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:US3c61c69dbeb9c) has latitude = 33.57132 deg (rapt:blue:land, UUID:US3c61c69dbeb9c, RAPT:ASSET, map:color:teal);
+ and has longitude = -73.13495 deg (rapt:blue:land, UUID:US3c61c69dbeb9c, RAPT:ASSET, map:color:teal);
+ and has dtg = 1729134062298 (rapt:blue:land, UUID:US3c61c69dbeb9c, RAPT:ASSET, map:color:teal);
+
+NMESIS-15 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:USa3786eae4d7f9) has name = "NMESIS-15" (rapt:blue:land, UUID:USa3786eae4d7f9, RAPT:ASSET, map:color:teal);
+ and has class = "NMESIS" (rapt:blue:land, UUID:USa3786eae4d7f9, RAPT:ASSET, map:color:teal);
+ and has uuid = "USa3786eae4d7f9" (rapt:blue:land, UUID:USa3786eae4d7f9, RAPT:ASSET, map:color:teal);
+ and has flag = "US" (rapt:blue:land, UUID:USa3786eae4d7f9, RAPT:ASSET, map:color:teal);
+ and has threat = "FRD" (rapt:blue:land, UUID:USa3786eae4d7f9, RAPT:ASSET, map:color:teal);
+ and has pennant = 15 (rapt:blue:land, UUID:USa3786eae4d7f9, RAPT:ASSET, map:color:teal);
+
+weapons inventory of NMESIS-15 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:USa3786eae4d7f9) has RGM-184A NSM Naval Strike missile inventory = 2 (attribute:unit, rapt:blue:land, UUID:USa3786eae4d7f9);
+
+current position of NMESIS-15 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:USa3786eae4d7f9) has latitude = 33.75877 deg (rapt:blue:land, UUID:USa3786eae4d7f9, RAPT:ASSET, map:color:teal);
+ and has longitude = -73.05805 deg (rapt:blue:land, UUID:USa3786eae4d7f9, RAPT:ASSET, map:color:teal);
+ and has dtg = 1729134062298 (rapt:blue:land, UUID:USa3786eae4d7f9, RAPT:ASSET, map:color:teal);
+
+NMESIS-16 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:USf7ca8e3bdf795) has name = "NMESIS-16" (rapt:blue:land, UUID:USf7ca8e3bdf795, RAPT:ASSET, map:color:teal);
+ and has class = "NMESIS" (rapt:blue:land, UUID:USf7ca8e3bdf795, RAPT:ASSET, map:color:teal);
+ and has uuid = "USf7ca8e3bdf795" (rapt:blue:land, UUID:USf7ca8e3bdf795, RAPT:ASSET, map:color:teal);
+ and has flag = "US" (rapt:blue:land, UUID:USf7ca8e3bdf795, RAPT:ASSET, map:color:teal);
+ and has threat = "FRD" (rapt:blue:land, UUID:USf7ca8e3bdf795, RAPT:ASSET, map:color:teal);
+ and has pennant = 16 (rapt:blue:land, UUID:USf7ca8e3bdf795, RAPT:ASSET, map:color:teal);
+
+weapons inventory of NMESIS-16 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:USf7ca8e3bdf795) has RGM-184A NSM Naval Strike missile inventory = 2 (attribute:unit, rapt:blue:land, UUID:USf7ca8e3bdf795);
+
+current position of NMESIS-16 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:USf7ca8e3bdf795) has latitude = 33.38346 deg (rapt:blue:land, UUID:USf7ca8e3bdf795, RAPT:ASSET, map:color:teal);
+ and has longitude = -73.10749 deg (rapt:blue:land, UUID:USf7ca8e3bdf795, RAPT:ASSET, map:color:teal);
+ and has dtg = 1729134062298 (rapt:blue:land, UUID:USf7ca8e3bdf795, RAPT:ASSET, map:color:teal);
+
+NMESIS-17 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:US2723177209e8a) has name = "NMESIS-17" (rapt:blue:land, UUID:US2723177209e8a, RAPT:ASSET, map:color:teal);
+ and has class = "NMESIS" (rapt:blue:land, UUID:US2723177209e8a, RAPT:ASSET, map:color:teal);
+ and has uuid = "US2723177209e8a" (rapt:blue:land, UUID:US2723177209e8a, RAPT:ASSET, map:color:teal);
+ and has flag = "US" (rapt:blue:land, UUID:US2723177209e8a, RAPT:ASSET, map:color:teal);
+ and has threat = "FRD" (rapt:blue:land, UUID:US2723177209e8a, RAPT:ASSET, map:color:teal);
+ and has pennant = 17 (rapt:blue:land, UUID:US2723177209e8a, RAPT:ASSET, map:color:teal);
+
+weapons inventory of NMESIS-17 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:US2723177209e8a) has RGM-184A NSM Naval Strike missile inventory = 2 (attribute:unit, rapt:blue:land, UUID:US2723177209e8a);
+
+current position of NMESIS-17 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:US2723177209e8a) has latitude = 33.3284 deg (rapt:blue:land, UUID:US2723177209e8a, RAPT:ASSET, map:color:teal);
+ and has longitude = -73.00312 deg (rapt:blue:land, UUID:US2723177209e8a, RAPT:ASSET, map:color:teal);
+ and has dtg = 1729134062298 (rapt:blue:land, UUID:US2723177209e8a, RAPT:ASSET, map:color:teal);
+
+NMESIS-18 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:US74f0ac4584456) has name = "NMESIS-18" (rapt:blue:land, UUID:US74f0ac4584456, RAPT:ASSET, map:color:teal);
+ and has class = "NMESIS" (rapt:blue:land, UUID:US74f0ac4584456, RAPT:ASSET, map:color:teal);
+ and has uuid = "US74f0ac4584456" (rapt:blue:land, UUID:US74f0ac4584456, RAPT:ASSET, map:color:teal);
+ and has flag = "US" (rapt:blue:land, UUID:US74f0ac4584456, RAPT:ASSET, map:color:teal);
+ and has threat = "FRD" (rapt:blue:land, UUID:US74f0ac4584456, RAPT:ASSET, map:color:teal);
+ and has pennant = 18 (rapt:blue:land, UUID:US74f0ac4584456, RAPT:ASSET, map:color:teal);
+
+weapons inventory of NMESIS-18 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:US74f0ac4584456) has RGM-184A NSM Naval Strike missile inventory = 2 (attribute:unit, rapt:blue:land, UUID:US74f0ac4584456);
+
+current position of NMESIS-18 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:US74f0ac4584456) has latitude = 33.29627 deg (rapt:blue:land, UUID:US74f0ac4584456, RAPT:ASSET, map:color:teal);
+ and has longitude = -72.89325 deg (rapt:blue:land, UUID:US74f0ac4584456, RAPT:ASSET, map:color:teal);
+ and has dtg = 1729134062298 (rapt:blue:land, UUID:US74f0ac4584456, RAPT:ASSET, map:color:teal);
+
+NMESIS-2 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:US9282d95344f9b) has name = "NMESIS-2" (rapt:blue:land, UUID:US9282d95344f9b, RAPT:ASSET, map:color:teal);
+ and has class = "NMESIS" (rapt:blue:land, UUID:US9282d95344f9b, RAPT:ASSET, map:color:teal);
+ and has uuid = "US9282d95344f9b" (rapt:blue:land, UUID:US9282d95344f9b, RAPT:ASSET, map:color:teal);
+ and has flag = "US" (rapt:blue:land, UUID:US9282d95344f9b, RAPT:ASSET, map:color:teal);
+ and has threat = "FRD" (rapt:blue:land, UUID:US9282d95344f9b, RAPT:ASSET, map:color:teal);
+ and has pennant = 2 (rapt:blue:land, UUID:US9282d95344f9b, RAPT:ASSET, map:color:teal);
+
+weapons inventory of NMESIS-2 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:US9282d95344f9b) has RGM-184A NSM Naval Strike missile inventory = 2 (attribute:unit, rapt:blue:land, UUID:US9282d95344f9b);
+
+current position of NMESIS-2 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:US9282d95344f9b) has latitude = 33.85479 deg (rapt:blue:land, UUID:US9282d95344f9b, RAPT:ASSET, map:color:teal);
+ and has longitude = -74.37258 deg (rapt:blue:land, UUID:US9282d95344f9b, RAPT:ASSET, map:color:teal);
+ and has dtg = 1729134062298 (rapt:blue:land, UUID:US9282d95344f9b, RAPT:ASSET, map:color:teal);
+
+NMESIS-3 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:US11ee7f62b628a) has name = "NMESIS-3" (rapt:blue:land, UUID:US11ee7f62b628a, RAPT:ASSET, map:color:teal);
+ and has class = "NMESIS" (rapt:blue:land, UUID:US11ee7f62b628a, RAPT:ASSET, map:color:teal);
+ and has uuid = "US11ee7f62b628a" (rapt:blue:land, UUID:US11ee7f62b628a, RAPT:ASSET, map:color:teal);
+ and has flag = "US" (rapt:blue:land, UUID:US11ee7f62b628a, RAPT:ASSET, map:color:teal);
+ and has threat = "FRD" (rapt:blue:land, UUID:US11ee7f62b628a, RAPT:ASSET, map:color:teal);
+ and has pennant = 3 (rapt:blue:land, UUID:US11ee7f62b628a, RAPT:ASSET, map:color:teal);
+
+weapons inventory of NMESIS-3 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:US11ee7f62b628a) has RGM-184A NSM Naval Strike missile inventory = 2 (attribute:unit, rapt:blue:land, UUID:US11ee7f62b628a);
+
+current position of NMESIS-3 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:US11ee7f62b628a) has latitude = 33.86049 deg (rapt:blue:land, UUID:US11ee7f62b628a, RAPT:ASSET, map:color:teal);
+ and has longitude = -74.33 deg (rapt:blue:land, UUID:US11ee7f62b628a, RAPT:ASSET, map:color:teal);
+ and has dtg = 1729134062298 (rapt:blue:land, UUID:US11ee7f62b628a, RAPT:ASSET, map:color:teal);
+
+NMESIS-4 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:US3ed93b54428dd) has name = "NMESIS-4" (rapt:blue:land, UUID:US3ed93b54428dd, RAPT:ASSET, map:color:teal);
+ and has class = "NMESIS" (rapt:blue:land, UUID:US3ed93b54428dd, RAPT:ASSET, map:color:teal);
+ and has uuid = "US3ed93b54428dd" (rapt:blue:land, UUID:US3ed93b54428dd, RAPT:ASSET, map:color:teal);
+ and has flag = "US" (rapt:blue:land, UUID:US3ed93b54428dd, RAPT:ASSET, map:color:teal);
+ and has threat = "FRD" (rapt:blue:land, UUID:US3ed93b54428dd, RAPT:ASSET, map:color:teal);
+ and has pennant = 4 (rapt:blue:land, UUID:US3ed93b54428dd, RAPT:ASSET, map:color:teal);
+
+weapons inventory of NMESIS-4 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:US3ed93b54428dd) has RGM-184A NSM Naval Strike missile inventory = 2 (attribute:unit, rapt:blue:land, UUID:US3ed93b54428dd);
+
+current position of NMESIS-4 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:US3ed93b54428dd) has latitude = 33.20119 deg (rapt:blue:land, UUID:US3ed93b54428dd, RAPT:ASSET, map:color:teal);
+ and has longitude = -74.4675 deg (rapt:blue:land, UUID:US3ed93b54428dd, RAPT:ASSET, map:color:teal);
+ and has dtg = 1729134062298 (rapt:blue:land, UUID:US3ed93b54428dd, RAPT:ASSET, map:color:teal);
+
+NMESIS-5 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:USb36dbadaba02f) has name = "NMESIS-5" (rapt:blue:land, UUID:USb36dbadaba02f, RAPT:ASSET, map:color:teal);
+ and has class = "NMESIS" (rapt:blue:land, UUID:USb36dbadaba02f, RAPT:ASSET, map:color:teal);
+ and has uuid = "USb36dbadaba02f" (rapt:blue:land, UUID:USb36dbadaba02f, RAPT:ASSET, map:color:teal);
+ and has flag = "US" (rapt:blue:land, UUID:USb36dbadaba02f, RAPT:ASSET, map:color:teal);
+ and has threat = "FRD" (rapt:blue:land, UUID:USb36dbadaba02f, RAPT:ASSET, map:color:teal);
+ and has pennant = 5 (rapt:blue:land, UUID:USb36dbadaba02f, RAPT:ASSET, map:color:teal);
+
+weapons inventory of NMESIS-5 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:USb36dbadaba02f) has RGM-184A NSM Naval Strike missile inventory = 2 (attribute:unit, rapt:blue:land, UUID:USb36dbadaba02f);
+
+current position of NMESIS-5 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:USb36dbadaba02f) has latitude = 33.23107 deg (rapt:blue:land, UUID:USb36dbadaba02f, RAPT:ASSET, map:color:teal);
+ and has longitude = -74.45652 deg (rapt:blue:land, UUID:USb36dbadaba02f, RAPT:ASSET, map:color:teal);
+ and has dtg = 1729134062298 (rapt:blue:land, UUID:USb36dbadaba02f, RAPT:ASSET, map:color:teal);
+
+NMESIS-6 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:USdd1dd2a24f65f) has name = "NMESIS-6" (rapt:blue:land, UUID:USdd1dd2a24f65f, RAPT:ASSET, map:color:teal);
+ and has class = "NMESIS" (rapt:blue:land, UUID:USdd1dd2a24f65f, RAPT:ASSET, map:color:teal);
+ and has uuid = "USdd1dd2a24f65f" (rapt:blue:land, UUID:USdd1dd2a24f65f, RAPT:ASSET, map:color:teal);
+ and has flag = "US" (rapt:blue:land, UUID:USdd1dd2a24f65f, RAPT:ASSET, map:color:teal);
+ and has threat = "FRD" (rapt:blue:land, UUID:USdd1dd2a24f65f, RAPT:ASSET, map:color:teal);
+ and has pennant = 6 (rapt:blue:land, UUID:USdd1dd2a24f65f, RAPT:ASSET, map:color:teal);
+
+weapons inventory of NMESIS-6 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:USdd1dd2a24f65f) has RGM-184A NSM Naval Strike missile inventory = 2 (attribute:unit, rapt:blue:land, UUID:USdd1dd2a24f65f);
+
+current position of NMESIS-6 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:USdd1dd2a24f65f) has latitude = 33.17878 deg (rapt:blue:land, UUID:USdd1dd2a24f65f, RAPT:ASSET, map:color:teal);
+ and has longitude = -74.45858 deg (rapt:blue:land, UUID:USdd1dd2a24f65f, RAPT:ASSET, map:color:teal);
+ and has dtg = 1729134062298 (rapt:blue:land, UUID:USdd1dd2a24f65f, RAPT:ASSET, map:color:teal);
+
+NMESIS-7 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:US6a6dd4feca131) has name = "NMESIS-7" (rapt:blue:land, UUID:US6a6dd4feca131, RAPT:ASSET, map:color:teal);
+ and has class = "NMESIS" (rapt:blue:land, UUID:US6a6dd4feca131, RAPT:ASSET, map:color:teal);
+ and has uuid = "US6a6dd4feca131" (rapt:blue:land, UUID:US6a6dd4feca131, RAPT:ASSET, map:color:teal);
+ and has flag = "US" (rapt:blue:land, UUID:US6a6dd4feca131, RAPT:ASSET, map:color:teal);
+ and has threat = "FRD" (rapt:blue:land, UUID:US6a6dd4feca131, RAPT:ASSET, map:color:teal);
+ and has pennant = 7 (rapt:blue:land, UUID:US6a6dd4feca131, RAPT:ASSET, map:color:teal);
+
+weapons inventory of NMESIS-7 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:US6a6dd4feca131) has RGM-184A NSM Naval Strike missile inventory = 2 (attribute:unit, rapt:blue:land, UUID:US6a6dd4feca131);
+
+current position of NMESIS-7 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:US6a6dd4feca131) has latitude = 33.47185 deg (rapt:blue:land, UUID:US6a6dd4feca131, RAPT:ASSET, map:color:teal);
+ and has longitude = -74.58705 deg (rapt:blue:land, UUID:US6a6dd4feca131, RAPT:ASSET, map:color:teal);
+ and has dtg = 1729134062298 (rapt:blue:land, UUID:US6a6dd4feca131, RAPT:ASSET, map:color:teal);
+
+NMESIS-8 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:US425714e7f5bc5) has name = "NMESIS-8" (rapt:blue:land, UUID:US425714e7f5bc5, RAPT:ASSET, map:color:teal);
+ and has class = "NMESIS" (rapt:blue:land, UUID:US425714e7f5bc5, RAPT:ASSET, map:color:teal);
+ and has uuid = "US425714e7f5bc5" (rapt:blue:land, UUID:US425714e7f5bc5, RAPT:ASSET, map:color:teal);
+ and has flag = "US" (rapt:blue:land, UUID:US425714e7f5bc5, RAPT:ASSET, map:color:teal);
+ and has threat = "FRD" (rapt:blue:land, UUID:US425714e7f5bc5, RAPT:ASSET, map:color:teal);
+ and has pennant = 8 (rapt:blue:land, UUID:US425714e7f5bc5, RAPT:ASSET, map:color:teal);
+
+weapons inventory of NMESIS-8 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:US425714e7f5bc5) has RGM-184A NSM Naval Strike missile inventory = 2 (attribute:unit, rapt:blue:land, UUID:US425714e7f5bc5);
+
+current position of NMESIS-8 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:US425714e7f5bc5) has latitude = 33.48158 deg (rapt:blue:land, UUID:US425714e7f5bc5, RAPT:ASSET, map:color:teal);
+ and has longitude = -74.57744 deg (rapt:blue:land, UUID:US425714e7f5bc5, RAPT:ASSET, map:color:teal);
+ and has dtg = 1729134062298 (rapt:blue:land, UUID:US425714e7f5bc5, RAPT:ASSET, map:color:teal);
+
+NMESIS-9 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:US2f1e5b5c76a67) has name = "NMESIS-9" (rapt:blue:land, UUID:US2f1e5b5c76a67, RAPT:ASSET, map:color:teal);
+ and has class = "NMESIS" (rapt:blue:land, UUID:US2f1e5b5c76a67, RAPT:ASSET, map:color:teal);
+ and has uuid = "US2f1e5b5c76a67" (rapt:blue:land, UUID:US2f1e5b5c76a67, RAPT:ASSET, map:color:teal);
+ and has flag = "US" (rapt:blue:land, UUID:US2f1e5b5c76a67, RAPT:ASSET, map:color:teal);
+ and has threat = "FRD" (rapt:blue:land, UUID:US2f1e5b5c76a67, RAPT:ASSET, map:color:teal);
+ and has pennant = 9 (rapt:blue:land, UUID:US2f1e5b5c76a67, RAPT:ASSET, map:color:teal);
+
+weapons inventory of NMESIS-9 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:US2f1e5b5c76a67) has RGM-184A NSM Naval Strike missile inventory = 2 (attribute:unit, rapt:blue:land, UUID:US2f1e5b5c76a67);
+
+current position of NMESIS-9 BTRY of NMESIS CLASS US MARINE CORPS ARTILLERY (rapt:blue:land,UUID:US2f1e5b5c76a67) has latitude = 33.46812 deg (rapt:blue:land, UUID:US2f1e5b5c76a67, RAPT:ASSET, map:color:teal);
+ and has longitude = -74.57606 deg (rapt:blue:land, UUID:US2f1e5b5c76a67, RAPT:ASSET, map:color:teal);
+ and has dtg = 1729134062298 (rapt:blue:land, UUID:US2f1e5b5c76a67, RAPT:ASSET, map:color:teal);
+
+QIQIHAR DDG-121 of LUYANG III CLASS CH NAVY SHIP has uuid = "CH82df5e98dd4fb0" (rapt:red:sea, static1, RAPT:TARGET);
+ and has name = "QIQIHAR" (rapt:red:sea, static1, RAPT:TARGET);
+ and has class = "LUYANG III" (rapt:red:sea, static1, RAPT:TARGET);
+ and has subclass = "052D" (rapt:red:sea, static1, RAPT:TARGET);
+ and has pennant = 121 (rapt:red:sea, static1, RAPT:TARGET);
+ and has flag = "CH" (rapt:red:sea, static1, RAPT:TARGET);
+
+current position of QIQIHAR DDG-121 of LUYANG III CLASS CH NAVY SHIP has latitude = 35.53388 deg (rapt:red:sea, RAPT:TARGET);
+ and has longitude = -73.53208 deg (rapt:red:sea, RAPT:TARGET);
+ and has dtg = 1728990000000 (rapt:red:sea, RAPT:TARGET);
+
+targeting of LUYANG III CLASS CH NAVY SHIP has 70pct desired yield energy (attribute:class,kill:mission)  = 3661e6 Joule (rapt:yields, rapt:red:sea, attribute:class, kill:mission);
+ and has Priority (attribute:class)  = 1 (rapt:yields, rapt:red:sea, attribute:class);
+ and has Pd (attribute:class)  = 0.7 (rapt:yields, rapt:red:sea, attribute:class);
+
+TANGSHAN DDG-122 of LUYANG III CLASS CH NAVY SHIP has uuid = "CHb424aaa56ae032" (rapt:red:sea, static1, RAPT:TARGET);
+ and has name = "TANGSHAN" (rapt:red:sea, static1, RAPT:TARGET);
+ and has class = "LUYANG III" (rapt:red:sea, static1, RAPT:TARGET);
+ and has subclass = "052D" (rapt:red:sea, static1, RAPT:TARGET);
+ and has pennant = 122 (rapt:red:sea, static1, RAPT:TARGET);
+ and has flag = "CH" (rapt:red:sea, static1, RAPT:TARGET);
+
+current position of TANGSHAN DDG-122 of LUYANG III CLASS CH NAVY SHIP has latitude = 35.39966 deg (rapt:red:sea, RAPT:TARGET);
+ and has longitude = -73.31785 deg (rapt:red:sea, RAPT:TARGET);
+ and has dtg = 1728990000000 (rapt:red:sea, RAPT:TARGET);
+
+targeting of LUYANG III CLASS CH NAVY SHIP has 70pct desired yield energy (attribute:class,kill:mission)  = 3661e6 Joule (rapt:yields, rapt:red:sea, attribute:class, kill:mission);
+ and has Priority (attribute:class)  = 1 (rapt:yields, rapt:red:sea, attribute:class);
+ and has Pd (attribute:class)  = 0.7 (rapt:yields, rapt:red:sea, attribute:class);
+
+HUAINAN DDG-123 of LUYANG III CLASS CH NAVY SHIP has uuid = "CH83575aca2b79cf" (rapt:red:sea, static1, RAPT:TARGET);
+ and has name = "HUAINAN" (rapt:red:sea, static1, RAPT:TARGET);
+ and has class = "LUYANG III" (rapt:red:sea, static1, RAPT:TARGET);
+ and has subclass = "052D" (rapt:red:sea, static1, RAPT:TARGET);
+ and has pennant = 123 (rapt:red:sea, static1, RAPT:TARGET);
+ and has flag = "CH" (rapt:red:sea, static1, RAPT:TARGET);
+
+current position of HUAINAN DDG-123 of LUYANG III CLASS CH NAVY SHIP has latitude = 35.15301 deg (rapt:red:sea, RAPT:TARGET);
+ and has longitude = -73.22996 deg (rapt:red:sea, RAPT:TARGET);
+ and has dtg = 1728990000000 (rapt:red:sea, RAPT:TARGET);
+
+targeting of LUYANG III CLASS CH NAVY SHIP has 70pct desired yield energy (attribute:class,kill:mission)  = 3661e6 Joule (rapt:yields, rapt:red:sea, attribute:class, kill:mission);
+ and has Priority (attribute:class)  = 1 (rapt:yields, rapt:red:sea, attribute:class);
+ and has Pd (attribute:class)  = 0.7 (rapt:yields, rapt:red:sea, attribute:class);
+
+NANNING DDG-162 of LUYANG III CLASS CH NAVY SHIP has uuid = "CHd3285e3c41a7d3" (rapt:red:sea, static1, RAPT:TARGET);
+ and has name = "NANNING" (rapt:red:sea, static1, RAPT:TARGET);
+ and has class = "LUYANG III" (rapt:red:sea, static1, RAPT:TARGET);
+ and has subclass = "052D" (rapt:red:sea, static1, RAPT:TARGET);
+ and has pennant = 162 (rapt:red:sea, static1, RAPT:TARGET);
+ and has flag = "CH" (rapt:red:sea, static1, RAPT:TARGET);
+
+current position of NANNING DDG-162 of LUYANG III CLASS CH NAVY SHIP has latitude = 33.08404 deg (rapt:red:sea, RAPT:TARGET);
+ and has longitude = -75.78428 deg (rapt:red:sea, RAPT:TARGET);
+ and has dtg = 1728990000000 (rapt:red:sea, RAPT:TARGET);
+
+targeting of LUYANG III CLASS CH NAVY SHIP has 70pct desired yield energy (attribute:class,kill:mission)  = 3661e6 Joule (rapt:yields, rapt:red:sea, attribute:class, kill:mission);
+ and has Priority (attribute:class)  = 1 (rapt:yields, rapt:red:sea, attribute:class);
+ and has Pd (attribute:class)  = 0.7 (rapt:yields, rapt:red:sea, attribute:class);
+
+JIAOZUO DDG-163 of LUYANG III CLASS CH NAVY SHIP has uuid = "CH3322594b83f8fc" (rapt:red:sea, static1, RAPT:TARGET);
+ and has name = "JIAOZUO" (rapt:red:sea, static1, RAPT:TARGET);
+ and has class = "LUYANG III" (rapt:red:sea, static1, RAPT:TARGET);
+ and has subclass = "052D" (rapt:red:sea, static1, RAPT:TARGET);
+ and has pennant = 163 (rapt:red:sea, static1, RAPT:TARGET);
+ and has flag = "CH" (rapt:red:sea, static1, RAPT:TARGET);
+
+current position of JIAOZUO DDG-163 of LUYANG III CLASS CH NAVY SHIP has latitude = 34.00882 deg (rapt:red:sea, RAPT:TARGET);
+ and has longitude = -73.38926 deg (rapt:red:sea, RAPT:TARGET);
+ and has dtg = 1728990000000 (rapt:red:sea, RAPT:TARGET);
+
+targeting of LUYANG III CLASS CH NAVY SHIP has 70pct desired yield energy (attribute:class,kill:mission)  = 3661e6 Joule (rapt:yields, rapt:red:sea, attribute:class, kill:mission);
+ and has Priority (attribute:class)  = 1 (rapt:yields, rapt:red:sea, attribute:class);
+ and has Pd (attribute:class)  = 0.7 (rapt:yields, rapt:red:sea, attribute:class);
+
+GUILIN DDG-164 of LUYANG III CLASS CH NAVY SHIP has uuid = "CHd88841ebadf1c3" (rapt:red:sea, static1, RAPT:TARGET);
+ and has name = "GUILIN" (rapt:red:sea, static1, RAPT:TARGET);
+ and has class = "LUYANG III" (rapt:red:sea, static1, RAPT:TARGET);
+ and has subclass = "052D" (rapt:red:sea, static1, RAPT:TARGET);
+ and has pennant = 164 (rapt:red:sea, static1, RAPT:TARGET);
+ and has flag = "CH" (rapt:red:sea, static1, RAPT:TARGET);
+
+current position of GUILIN DDG-164 of LUYANG III CLASS CH NAVY SHIP has latitude = 34.33604 deg (rapt:red:sea, RAPT:TARGET);
+ and has longitude = -74.0814 deg (rapt:red:sea, RAPT:TARGET);
+ and has dtg = 1728990000000 (rapt:red:sea, RAPT:TARGET);
+
+targeting of LUYANG III CLASS CH NAVY SHIP has 70pct desired yield energy (attribute:class,kill:mission)  = 3661e6 Joule (rapt:yields, rapt:red:sea, attribute:class, kill:mission);
+ and has Priority (attribute:class)  = 1 (rapt:yields, rapt:red:sea, attribute:class);
+ and has Pd (attribute:class)  = 0.7 (rapt:yields, rapt:red:sea, attribute:class);
+
+ZHANJIANG DDG-165 of LUYANG III CLASS CH NAVY SHIP has uuid = "CH117c2a8c4fa615" (rapt:red:sea, static1, RAPT:TARGET);
+ and has name = "ZHANJIANG" (rapt:red:sea, static1, RAPT:TARGET);
+ and has class = "LUYANG III" (rapt:red:sea, static1, RAPT:TARGET);
+ and has subclass = "052D" (rapt:red:sea, static1, RAPT:TARGET);
+ and has pennant = 165 (rapt:red:sea, static1, RAPT:TARGET);
+ and has flag = "CH" (rapt:red:sea, static1, RAPT:TARGET);
+
+current position of ZHANJIANG DDG-165 of LUYANG III CLASS CH NAVY SHIP has latitude = 33.67119 deg (rapt:red:sea, RAPT:TARGET);
+ and has longitude = -75.26792 deg (rapt:red:sea, RAPT:TARGET);
+ and has dtg = 1728990000000 (rapt:red:sea, RAPT:TARGET);
+
+targeting of LUYANG III CLASS CH NAVY SHIP has 70pct desired yield energy (attribute:class,kill:mission)  = 3661e6 Joule (rapt:yields, rapt:red:sea, attribute:class, kill:mission);
+ and has Priority (attribute:class)  = 1 (rapt:yields, rapt:red:sea, attribute:class);
+ and has Pd (attribute:class)  = 0.7 (rapt:yields, rapt:red:sea, attribute:class);
+
+KUNMING DDG-172 of LUYANG III CLASS CH NAVY SHIP has uuid = "CH640ae16404f459" (rapt:red:sea, static1, RAPT:TARGET);
+ and has name = "KUNMING" (rapt:red:sea, static1, RAPT:TARGET);
+ and has class = "LUYANG III" (rapt:red:sea, static1, RAPT:TARGET);
+ and has subclass = "052D" (rapt:red:sea, static1, RAPT:TARGET);
+ and has pennant = 172 (rapt:red:sea, static1, RAPT:TARGET);
+ and has flag = "CH" (rapt:red:sea, static1, RAPT:TARGET);
+
+current position of KUNMING DDG-172 of LUYANG III CLASS CH NAVY SHIP has latitude = 36.4436 deg (rapt:red:sea, RAPT:TARGET);
+ and has longitude = -73.8492 deg (rapt:red:sea, RAPT:TARGET);
+ and has dtg = 1728990000000 (rapt:red:sea, RAPT:TARGET);
+
+targeting of LUYANG III CLASS CH NAVY SHIP has 70pct desired yield energy (attribute:class,kill:mission)  = 3661e6 Joule (rapt:yields, rapt:red:sea, attribute:class, kill:mission);
+ and has Priority (attribute:class)  = 1 (rapt:yields, rapt:red:sea, attribute:class);
+ and has Pd (attribute:class)  = 0.7 (rapt:yields, rapt:red:sea, attribute:class);
+
+CHANGSHA DDG-173 of LUYANG III CLASS CH NAVY SHIP has uuid = "CH57fcc74f81a26e" (rapt:red:sea, static1, RAPT:TARGET);
+ and has name = "CHANGSHA" (rapt:red:sea, static1, RAPT:TARGET);
+ and has class = "LUYANG III" (rapt:red:sea, static1, RAPT:TARGET);
+ and has subclass = "052D" (rapt:red:sea, static1, RAPT:TARGET);
+ and has pennant = 173 (rapt:red:sea, static1, RAPT:TARGET);
+ and has flag = "CH" (rapt:red:sea, static1, RAPT:TARGET);
+
+current position of CHANGSHA DDG-173 of LUYANG III CLASS CH NAVY SHIP has latitude = 36.29807 deg (rapt:red:sea, RAPT:TARGET);
+ and has longitude = -73.93851 deg (rapt:red:sea, RAPT:TARGET);
+ and has dtg = 1728990000000 (rapt:red:sea, RAPT:TARGET);
+
+targeting of LUYANG III CLASS CH NAVY SHIP has 70pct desired yield energy (attribute:class,kill:mission)  = 3661e6 Joule (rapt:yields, rapt:red:sea, attribute:class, kill:mission);
+ and has Priority (attribute:class)  = 1 (rapt:yields, rapt:red:sea, attribute:class);
+ and has Pd (attribute:class)  = 0.7 (rapt:yields, rapt:red:sea, attribute:class);
+
+HEFEI DDG-174 of LUYANG III CLASS CH NAVY SHIP has uuid = "CHe5e2d297b473a9" (rapt:red:sea, static1, RAPT:TARGET);
+ and has name = "HEFEI" (rapt:red:sea, static1, RAPT:TARGET);
+ and has class = "LUYANG III" (rapt:red:sea, static1, RAPT:TARGET);
+ and has subclass = "052D" (rapt:red:sea, static1, RAPT:TARGET);
+ and has pennant = 174 (rapt:red:sea, static1, RAPT:TARGET);
+ and has flag = "CH" (rapt:red:sea, static1, RAPT:TARGET);
+
+current position of HEFEI DDG-174 of LUYANG III CLASS CH NAVY SHIP has latitude = 36.16083 deg (rapt:red:sea, RAPT:TARGET);
+ and has longitude = -74.41262 deg (rapt:red:sea, RAPT:TARGET);
+ and has dtg = 1728990000000 (rapt:red:sea, RAPT:TARGET);
+
+targeting of LUYANG III CLASS CH NAVY SHIP has 70pct desired yield energy (attribute:class,kill:mission)  = 3661e6 Joule (rapt:yields, rapt:red:sea, attribute:class, kill:mission);
+ and has Priority (attribute:class)  = 1 (rapt:yields, rapt:red:sea, attribute:class);
+ and has Pd (attribute:class)  = 0.7 (rapt:yields, rapt:red:sea, attribute:class);
+
+YINCHUAN DDG-175 of LUYANG III CLASS CH NAVY SHIP has uuid = "CHc78ce8542b9a1b" (rapt:red:sea, static1, RAPT:TARGET);
+ and has name = "YINCHUAN" (rapt:red:sea, static1, RAPT:TARGET);
+ and has class = "LUYANG III" (rapt:red:sea, static1, RAPT:TARGET);
+ and has subclass = "052D" (rapt:red:sea, static1, RAPT:TARGET);
+ and has pennant = 175 (rapt:red:sea, static1, RAPT:TARGET);
+ and has flag = "CH" (rapt:red:sea, static1, RAPT:TARGET);
+
+current position of YINCHUAN DDG-175 of LUYANG III CLASS CH NAVY SHIP has latitude = 35.9899 deg (rapt:red:sea, RAPT:TARGET);
+ and has longitude = -74.42617 deg (rapt:red:sea, RAPT:TARGET);
+ and has dtg = 1728990000000 (rapt:red:sea, RAPT:TARGET);
+
+targeting of LUYANG III CLASS CH NAVY SHIP has 70pct desired yield energy (attribute:class,kill:mission)  = 3661e6 Joule (rapt:yields, rapt:red:sea, attribute:class, kill:mission);
+ and has Priority (attribute:class)  = 1 (rapt:yields, rapt:red:sea, attribute:class);
+ and has Pd (attribute:class)  = 0.7 (rapt:yields, rapt:red:sea, attribute:class);
+
+NANCHANG DDG-101 of RENHAI CLASS CH NAVY SHIP has uuid = "CH1e7d3be20acb8b" (rapt:red:sea, static1, RAPT:TARGET);
+ and has name = "NANCHANG" (rapt:red:sea, static1, RAPT:TARGET);
+ and has class = "RENHAI" (rapt:red:sea, static1, RAPT:TARGET);
+ and has subclass = "055" (rapt:red:sea, static1, RAPT:TARGET);
+ and has pennant = 101 (rapt:red:sea, static1, RAPT:TARGET);
+ and has flag = "CH" (rapt:red:sea, static1, RAPT:TARGET);
+
+current position of NANCHANG DDG-101 of RENHAI CLASS CH NAVY SHIP has latitude = 36.7319 deg (rapt:red:sea, RAPT:TARGET);
+ and has longitude = -74.42014 deg (rapt:red:sea, RAPT:TARGET);
+ and has dtg = 1728990000000 (rapt:red:sea, RAPT:TARGET);
+
+targeting of RENHAI CLASS CH NAVY SHIP has 70pct desired yield energy (attribute:class,kill:mission)  = 4184e6 Joule (rapt:yields, rapt:red:sea, attribute:class, kill:mission);
+ and has Priority (attribute:class)  = 1 (rapt:yields, rapt:red:sea, attribute:class);
+ and has Pd (attribute:class)  = 0.7 (rapt:yields, rapt:red:sea, attribute:class);
+
+LHASA DDG-102 of RENHAI CLASS CH NAVY SHIP has uuid = "CHff67d0162eb4fb" (rapt:red:sea, static1, RAPT:TARGET);
+ and has name = "LHASA" (rapt:red:sea, static1, RAPT:TARGET);
+ and has class = "RENHAI" (rapt:red:sea, static1, RAPT:TARGET);
+ and has subclass = "055" (rapt:red:sea, static1, RAPT:TARGET);
+ and has pennant = 102 (rapt:red:sea, static1, RAPT:TARGET);
+ and has flag = "CH" (rapt:red:sea, static1, RAPT:TARGET);
+
+current position of LHASA DDG-102 of RENHAI CLASS CH NAVY SHIP has latitude = 35.13505 deg (rapt:red:sea, RAPT:TARGET);
+ and has longitude = -73.9166 deg (rapt:red:sea, RAPT:TARGET);
+ and has dtg = 1728990000000 (rapt:red:sea, RAPT:TARGET);
+
+targeting of RENHAI CLASS CH NAVY SHIP has 70pct desired yield energy (attribute:class,kill:mission)  = 4184e6 Joule (rapt:yields, rapt:red:sea, attribute:class, kill:mission);
+ and has Priority (attribute:class)  = 1 (rapt:yields, rapt:red:sea, attribute:class);
+ and has Pd (attribute:class)  = 0.7 (rapt:yields, rapt:red:sea, attribute:class);
+
+ANSHAN DDG-103 of RENHAI CLASS CH NAVY SHIP has uuid = "CHa417128f3f2781" (rapt:red:sea, static1, RAPT:TARGET);
+ and has name = "ANSHAN" (rapt:red:sea, static1, RAPT:TARGET);
+ and has class = "RENHAI" (rapt:red:sea, static1, RAPT:TARGET);
+ and has subclass = "055" (rapt:red:sea, static1, RAPT:TARGET);
+ and has pennant = 103 (rapt:red:sea, static1, RAPT:TARGET);
+ and has flag = "CH" (rapt:red:sea, static1, RAPT:TARGET);
+
+current position of ANSHAN DDG-103 of RENHAI CLASS CH NAVY SHIP has latitude = 34.42671 deg (rapt:red:sea, RAPT:TARGET);
+ and has longitude = -75.38877 deg (rapt:red:sea, RAPT:TARGET);
+ and has dtg = 1728990000000 (rapt:red:sea, RAPT:TARGET);
+
+targeting of RENHAI CLASS CH NAVY SHIP has 70pct desired yield energy (attribute:class,kill:mission)  = 4184e6 Joule (rapt:yields, rapt:red:sea, attribute:class, kill:mission);
+ and has Priority (attribute:class)  = 1 (rapt:yields, rapt:red:sea, attribute:class);
+ and has Pd (attribute:class)  = 0.7 (rapt:yields, rapt:red:sea, attribute:class);
+
+SUNDSVALL K-24 of GOTEBORG CLASS SW NAVY SHIP (rapt:blue:sea,UUID:IMO4642076) has name = "SUNDSVALL" (rapt:blue:sea, UUID:IMO4642076, RAPT:ASSET, map:color:blue);
+ and has class = "GOTEBORG" (rapt:blue:sea, UUID:IMO4642076, RAPT:ASSET, map:color:blue);
+ and has uuid = "IMO4642076" (rapt:blue:sea, UUID:IMO4642076, RAPT:ASSET, map:color:blue);
+ and has flag = "SW" (rapt:blue:sea, UUID:IMO4642076, RAPT:ASSET, map:color:blue);
+ and has threat = "FRD" (rapt:blue:sea, UUID:IMO4642076, RAPT:ASSET, map:color:blue);
+ and has pennant = 24 (rapt:blue:sea, UUID:IMO4642076, RAPT:ASSET, map:color:blue);
+
+weapons inventory of SUNDSVALL K-24 of GOTEBORG CLASS SW NAVY SHIP (rapt:blue:sea,UUID:IMO4642076) has RBS-15 MkII missile inventory = 8 (attribute:unit, rapt:blue:sea, UUID:IMO4642076);
+
+current position of SUNDSVALL K-24 of GOTEBORG CLASS SW NAVY SHIP (rapt:blue:sea,UUID:IMO4642076) has latitude = 30.57067 deg (rapt:blue:sea, UUID:IMO4642076, RAPT:ASSET, map:color:blue);
+ and has longitude = -76.97706 deg (rapt:blue:sea, UUID:IMO4642076, RAPT:ASSET, map:color:blue);
+ and has dtg = 1729134062298 (rapt:blue:sea, UUID:IMO4642076, RAPT:ASSET, map:color:blue);
+
+STURKO M-14 of STYRSO CLASS SW NAVY SHIP (rapt:blue:sea,UUID:IMO4644737) has name = "STURKO" (rapt:blue:sea, UUID:IMO4644737, RAPT:ASSET, map:color:blue);
+ and has class = "STYRSO" (rapt:blue:sea, UUID:IMO4644737, RAPT:ASSET, map:color:blue);
+ and has uuid = "IMO4644737" (rapt:blue:sea, UUID:IMO4644737, RAPT:ASSET, map:color:blue);
+ and has flag = "SW" (rapt:blue:sea, UUID:IMO4644737, RAPT:ASSET, map:color:blue);
+ and has threat = "FRD" (rapt:blue:sea, UUID:IMO4644737, RAPT:ASSET, map:color:blue);
+ and has pennant = 14 (rapt:blue:sea, UUID:IMO4644737, RAPT:ASSET, map:color:blue);
+
+current position of STURKO M-14 of STYRSO CLASS SW NAVY SHIP (rapt:blue:sea,UUID:IMO4644737) has latitude = 30.86346 deg (rapt:blue:sea, UUID:IMO4644737, RAPT:ASSET, map:color:blue);
+ and has longitude = -76.97706 deg (rapt:blue:sea, UUID:IMO4644737, RAPT:ASSET, map:color:blue);
+ and has dtg = 1729134062298 (rapt:blue:sea, UUID:IMO4644737, RAPT:ASSET, map:color:blue);
+
+HELSINGBORG K-32 of VISBY CLASS SW NAVY SHIP (rapt:blue:sea,UUID:IMO4642014) has name = "HELSINGBORG" (rapt:blue:sea, UUID:IMO4642014, RAPT:ASSET, map:color:blue);
+ and has class = "VISBY" (rapt:blue:sea, UUID:IMO4642014, RAPT:ASSET, map:color:blue);
+ and has uuid = "IMO4642014" (rapt:blue:sea, UUID:IMO4642014, RAPT:ASSET, map:color:blue);
+ and has flag = "SW" (rapt:blue:sea, UUID:IMO4642014, RAPT:ASSET, map:color:blue);
+ and has threat = "FRD" (rapt:blue:sea, UUID:IMO4642014, RAPT:ASSET, map:color:blue);
+ and has pennant = 32 (rapt:blue:sea, UUID:IMO4642014, RAPT:ASSET, map:color:blue);
+
+weapons inventory of HELSINGBORG K-32 of VISBY CLASS SW NAVY SHIP (rapt:blue:sea,UUID:IMO4642014) has RBS-15 MkII missile inventory = 8 (attribute:unit, rapt:blue:sea, UUID:IMO4642014);
+
+current position of HELSINGBORG K-32 of VISBY CLASS SW NAVY SHIP (rapt:blue:sea,UUID:IMO4642014) has latitude = 31.16477 deg (rapt:blue:sea, UUID:IMO4642014, RAPT:ASSET, map:color:blue);
+ and has longitude = -76.79029 deg (rapt:blue:sea, UUID:IMO4642014, RAPT:ASSET, map:color:blue);
+ and has dtg = 1729134062298 (rapt:blue:sea, UUID:IMO4642014, RAPT:ASSET, map:color:blue);
+
+GONZALEZ DDG-66 of ARLEIGH BURKE CLASS US NAVY SHIP (rapt:blue:sea,UUID:UIC21833) has name = "GONZALEZ" (rapt:blue:sea, UUID:UIC21833, RAPT:ASSET, map:color:blue);
+ and has class = "ARLEIGH BURKE" (rapt:blue:sea, UUID:UIC21833, RAPT:ASSET, map:color:blue);
+ and has uuid = "UIC21833" (rapt:blue:sea, UUID:UIC21833, RAPT:ASSET, map:color:blue);
+ and has flag = "US" (rapt:blue:sea, UUID:UIC21833, RAPT:ASSET, map:color:blue);
+ and has threat = "FRD" (rapt:blue:sea, UUID:UIC21833, RAPT:ASSET, map:color:blue);
+ and has pennant = 66 (rapt:blue:sea, UUID:UIC21833, RAPT:ASSET, map:color:blue);
+
+weapons inventory of GONZALEZ DDG-66 of ARLEIGH BURKE CLASS US NAVY SHIP (rapt:blue:sea,UUID:UIC21833) has RGM-84 Harpoon missile inventory = 8 (attribute:unit, rapt:blue:sea, UUID:UIC21833);
+ and has RIM-174b SM-6 missile inventory = 5 (attribute:unit, rapt:blue:sea, UUID:UIC21833);
+ and has RIM-174c SM-6 missile inventory = 5 (attribute:unit, rapt:blue:sea, UUID:UIC21833);
+ and has BGM-109D Tomahawk missile inventory = 2 (attribute:unit, rapt:blue:sea, UUID:UIC21833);
+
+current position of GONZALEZ DDG-66 of ARLEIGH BURKE CLASS US NAVY SHIP (rapt:blue:sea,UUID:UIC21833) has latitude = 36.54643 deg (rapt:blue:sea, UUID:UIC21833, RAPT:ASSET, map:color:blue);
+ and has longitude = -71.18461 deg (rapt:blue:sea, UUID:UIC21833, RAPT:ASSET, map:color:blue);
+ and has dtg = 1729134062298 (rapt:blue:sea, UUID:UIC21833, RAPT:ASSET, map:color:blue);
+
+COLE DDG-67 of ARLEIGH BURKE CLASS US NAVY SHIP (rapt:blue:sea,UUID:UIC21941) has name = "COLE" (rapt:blue:sea, UUID:UIC21941, RAPT:ASSET, map:color:blue);
+ and has class = "ARLEIGH BURKE" (rapt:blue:sea, UUID:UIC21941, RAPT:ASSET, map:color:blue);
+ and has uuid = "UIC21941" (rapt:blue:sea, UUID:UIC21941, RAPT:ASSET, map:color:blue);
+ and has flag = "US" (rapt:blue:sea, UUID:UIC21941, RAPT:ASSET, map:color:blue);
+ and has threat = "FRD" (rapt:blue:sea, UUID:UIC21941, RAPT:ASSET, map:color:blue);
+ and has pennant = 67 (rapt:blue:sea, UUID:UIC21941, RAPT:ASSET, map:color:blue);
+
+weapons inventory of COLE DDG-67 of ARLEIGH BURKE CLASS US NAVY SHIP (rapt:blue:sea,UUID:UIC21941) has RGM-84 Harpoon missile inventory = 8 (attribute:unit, rapt:blue:sea, UUID:UIC21941);
+ and has RIM-174b SM-6 missile inventory = 5 (attribute:unit, rapt:blue:sea, UUID:UIC21941);
+ and has RIM-174c SM-6 missile inventory = 5 (attribute:unit, rapt:blue:sea, UUID:UIC21941);
+ and has BGM-109D Tomahawk missile inventory = 2 (attribute:unit, rapt:blue:sea, UUID:UIC21941);
+
+current position of COLE DDG-67 of ARLEIGH BURKE CLASS US NAVY SHIP (rapt:blue:sea,UUID:UIC21941) has latitude = 36.3942 deg (rapt:blue:sea, UUID:UIC21941, RAPT:ASSET, map:color:blue);
+ and has longitude = -71.68063 deg (rapt:blue:sea, UUID:UIC21941, RAPT:ASSET, map:color:blue);
+ and has dtg = 1729134062298 (rapt:blue:sea, UUID:UIC21941, RAPT:ASSET, map:color:blue);
+
+DONALD COOK DDG-75 of ARLEIGH BURKE CLASS US NAVY SHIP (rapt:blue:sea,UUID:UIC21949) has name = "DONALD COOK" (rapt:blue:sea, UUID:UIC21949, RAPT:ASSET, map:color:blue);
+ and has class = "ARLEIGH BURKE" (rapt:blue:sea, UUID:UIC21949, RAPT:ASSET, map:color:blue);
+ and has uuid = "UIC21949" (rapt:blue:sea, UUID:UIC21949, RAPT:ASSET, map:color:blue);
+ and has flag = "US" (rapt:blue:sea, UUID:UIC21949, RAPT:ASSET, map:color:blue);
+ and has threat = "FRD" (rapt:blue:sea, UUID:UIC21949, RAPT:ASSET, map:color:blue);
+ and has pennant = 75 (rapt:blue:sea, UUID:UIC21949, RAPT:ASSET, map:color:blue);
+
+weapons inventory of DONALD COOK DDG-75 of ARLEIGH BURKE CLASS US NAVY SHIP (rapt:blue:sea,UUID:UIC21949) has RGM-84 Harpoon missile inventory = 8 (attribute:unit, rapt:blue:sea, UUID:UIC21949);
+ and has RIM-174b SM-6 missile inventory = 5 (attribute:unit, rapt:blue:sea, UUID:UIC21949);
+ and has RIM-174c SM-6 missile inventory = 5 (attribute:unit, rapt:blue:sea, UUID:UIC21949);
+
+current position of DONALD COOK DDG-75 of ARLEIGH BURKE CLASS US NAVY SHIP (rapt:blue:sea,UUID:UIC21949) has latitude = 30.83517 deg (rapt:blue:sea, UUID:UIC21949, RAPT:ASSET, map:color:blue);
+ and has longitude = -75.2522 deg (rapt:blue:sea, UUID:UIC21949, RAPT:ASSET, map:color:blue);
+ and has dtg = 1729134062298 (rapt:blue:sea, UUID:UIC21949, RAPT:ASSET, map:color:blue);
+
+BAINBRIDGE DDG-96 of ARLEIGH BURKE CLASS US NAVY SHIP (rapt:blue:sea,UUID:UIC23153) has name = "BAINBRIDGE" (rapt:blue:sea, UUID:UIC23153, RAPT:ASSET, map:color:blue);
+ and has class = "ARLEIGH BURKE" (rapt:blue:sea, UUID:UIC23153, RAPT:ASSET, map:color:blue);
+ and has uuid = "UIC23153" (rapt:blue:sea, UUID:UIC23153, RAPT:ASSET, map:color:blue);
+ and has flag = "US" (rapt:blue:sea, UUID:UIC23153, RAPT:ASSET, map:color:blue);
+ and has threat = "FRD" (rapt:blue:sea, UUID:UIC23153, RAPT:ASSET, map:color:blue);
+ and has pennant = 96 (rapt:blue:sea, UUID:UIC23153, RAPT:ASSET, map:color:blue);
+
+weapons inventory of BAINBRIDGE DDG-96 of ARLEIGH BURKE CLASS US NAVY SHIP (rapt:blue:sea,UUID:UIC23153) has RGM-84 Harpoon missile inventory = 8 (attribute:unit, rapt:blue:sea, UUID:UIC23153);
+ and has RIM-174b SM-6 missile inventory = 5 (attribute:unit, rapt:blue:sea, UUID:UIC23153);
+ and has RIM-174c SM-6 missile inventory = 5 (attribute:unit, rapt:blue:sea, UUID:UIC23153);
+ and has BGM-109D Tomahawk missile inventory = 2 (attribute:unit, rapt:blue:sea, UUID:UIC23153);
+
+current position of BAINBRIDGE DDG-96 of ARLEIGH BURKE CLASS US NAVY SHIP (rapt:blue:sea,UUID:UIC23153) has latitude = 36.55966 deg (rapt:blue:sea, UUID:UIC23153, RAPT:ASSET, map:color:blue);
+ and has longitude = -72.10746 deg (rapt:blue:sea, UUID:UIC23153, RAPT:ASSET, map:color:blue);
+ and has dtg = 1729134062298 (rapt:blue:sea, UUID:UIC23153, RAPT:ASSET, map:color:blue);
+
+COOPERSTOWN LCS-23 of FREEDOM CLASS US NAVY SHIP (rapt:blue:sea,UUID:UIC20161) has name = "COOPERSTOWN" (rapt:blue:sea, UUID:UIC20161, RAPT:ASSET, map:color:blue);
+ and has class = "FREEDOM" (rapt:blue:sea, UUID:UIC20161, RAPT:ASSET, map:color:blue);
+ and has uuid = "UIC20161" (rapt:blue:sea, UUID:UIC20161, RAPT:ASSET, map:color:blue);
+ and has flag = "US" (rapt:blue:sea, UUID:UIC20161, RAPT:ASSET, map:color:blue);
+ and has threat = "FRD" (rapt:blue:sea, UUID:UIC20161, RAPT:ASSET, map:color:blue);
+ and has pennant = 23 (rapt:blue:sea, UUID:UIC20161, RAPT:ASSET, map:color:blue);
+
+weapons inventory of COOPERSTOWN LCS-23 of FREEDOM CLASS US NAVY SHIP (rapt:blue:sea,UUID:UIC20161) has RGM-84 Harpoon missile inventory = 8 (attribute:unit, rapt:blue:sea, UUID:UIC20161);
+ and has RIM-174b SM-6 missile inventory = 5 (attribute:unit, rapt:blue:sea, UUID:UIC20161);
+ and has RIM-174c SM-6 missile inventory = 5 (attribute:unit, rapt:blue:sea, UUID:UIC20161);
+
+current position of COOPERSTOWN LCS-23 of FREEDOM CLASS US NAVY SHIP (rapt:blue:sea,UUID:UIC20161) has latitude = 30.82573 deg (rapt:blue:sea, UUID:UIC20161, RAPT:ASSET, map:color:blue);
+ and has longitude = -73.97779 deg (rapt:blue:sea, UUID:UIC20161, RAPT:ASSET, map:color:blue);
+ and has dtg = 1729134062298 (rapt:blue:sea, UUID:UIC20161, RAPT:ASSET, map:color:blue);
+
+HARRY S TRUMAN CVN-75 of NIMITZ CLASS US NAVY SHIP (rapt:blue:sea,UUID:UIC21853) has name = "HARRY S TRUMAN" (rapt:blue:sea, UUID:UIC21853, RAPT:ASSET, map:color:blue);
+ and has class = "NIMITZ" (rapt:blue:sea, UUID:UIC21853, RAPT:ASSET, map:color:blue);
+ and has uuid = "UIC21853" (rapt:blue:sea, UUID:UIC21853, RAPT:ASSET, map:color:blue);
+ and has flag = "US" (rapt:blue:sea, UUID:UIC21853, RAPT:ASSET, map:color:blue);
+ and has threat = "FRD" (rapt:blue:sea, UUID:UIC21853, RAPT:ASSET, map:color:blue);
+ and has pennant = 75 (rapt:blue:sea, UUID:UIC21853, RAPT:ASSET, map:color:blue);
+
+current position of HARRY S TRUMAN CVN-75 of NIMITZ CLASS US NAVY SHIP (rapt:blue:sea,UUID:UIC21853) has latitude = 37.439 deg (rapt:blue:sea, UUID:UIC21853, RAPT:ASSET, map:color:blue);
+ and has longitude = -65.05689 deg (rapt:blue:sea, UUID:UIC21853, RAPT:ASSET, map:color:blue);
+ and has dtg = 1729134062298 (rapt:blue:sea, UUID:UIC21853, RAPT:ASSET, map:color:blue);
+
+_system:queries/7560289931282316 has saved_query_tnql = "* has * (RAPT:TARGET);" (latest-query);
+ and has saved_query_name = "Read all Red Force Ships (RAPT)";

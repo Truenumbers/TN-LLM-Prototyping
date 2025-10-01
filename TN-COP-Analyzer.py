@@ -1,39 +1,30 @@
 from dash import Dash, html, dash_table, dcc, callback, Output, Input
 import plotly.express as px
 import pandas as pd
-import TnLlmTools
+import TnLlmTools as tnt
 
 app = Dash()
 app.title = "TN/C2X COP Analyzer"
 # Requires Dash 2.17.0 or later
-# First, gether summary data from TN COPs
+# First, gather summary data from TN COPs
 
+result = tnt.query_tn("llm-test", "* has *itude", 500, 0)
 
-df = None
+df = pd.DataFrame(["subject", "latitude", "logitude"])
+df = tnt.df_from_tns(df, result)
+print(df.to_string())
+
 fig = px.scatter_geo(
     df,
-    locations="iso_alpha",
-    size="pop",
     projection="equirectangular",
+    lat="latitude",
+    lon="longitude",
     width=1700,
     height=850,
 )
 
 app.layout = html.Div(
     children=[
-        html.Div(
-            [
-                dash_table.DataTable(
-                    id="table",
-                    columns=[{"name": col, "id": col} for col in df.columns],
-                    data=df.to_dict("records"),
-                    style_table={
-                        "overflowX": "auto"
-                    },  # Horizontal scroll for wide tables
-                    style_cell={"textAlign": "left"},  # Align text to the left
-                )
-            ]
-        ),
         html.Table(
             [
                 html.Tr(

@@ -4,14 +4,13 @@
 import requests
 import json
 import ollama
-import pandas as pd
 
 ## TN Tools
 
 tnRest = "http://gov.truenumbers.com/truenumbers-rest-api"
 
 
-def query_tn(nSpace, theQuery, limit, offset):
+def queryTn(nSpace, theQuery, limit, offset):
 
     parms = {"numberspace": nSpace, "limit": limit, "offset": offset}
     res = requests.post(
@@ -28,7 +27,7 @@ def query_tn(nSpace, theQuery, limit, offset):
 # NOTE:  "value" returns all kinds of value, must test if type is srd
 
 
-def get_phrases(nSpace, taxType, theQuery, limit, offset):
+def getPhrases(nSpace, taxType, theQuery, limit, offset):
     parms = {"numberspace": nSpace, "limit": limit, "offset": offset}
     res = requests.post(
         tnRest + "/v2/taxonomy/distinct",
@@ -39,63 +38,6 @@ def get_phrases(nSpace, taxType, theQuery, limit, offset):
         return res.json()
     else:
         return None
-
-
-def add_triple_to_dataframe(
-    df: pd.DataFrame, subject_str: str, property_str: str, value_str: str
-) -> pd.DataFrame:
-    """
-    Ensures required columns exist in the DataFrame and adds a new row with the given subject, property, and value.
-
-    Parameters:
-    - df (pd.DataFrame): The input DataFrame.
-    - subject_str (str): The value to insert into the 'subject' column.
-    - property_str (str): The name of the column to insert the value into.
-    - value_str (str): The value to insert into the property column.
-
-    Returns:
-    - pd.DataFrame: The updated DataFrame.
-    """
-    # print("s ", subject_str, " p ", property_str, " v ", value_str)
-    # Step 1: Ensure 'subject' column exists
-    if "subject" not in df.columns:
-        df["subject"] = pd.Series(dtype="object")
-
-    # Step 2: Ensure property column exists
-    if property_str not in df.columns:
-        df[property_str] = pd.Series(dtype="object")
-
-    # Step 3: put value in property column
-    valNum = value_str[0:-4]
-    if subject_str in df["subject"].values:
-        # Update the existing row for this subject
-        idx = df.index[df["subject"] == subject_str]
-        print("row ", idx)
-        df.at[idx, property_str] = float(valNum)
-    else:
-        # Add a new row (handled below)
-
-        new_row = {
-            "subject": subject_str,
-            property_str: float(valNum),
-        }
-        print(json.dumps(new_row))
-    df = pd.concat([df, pd.DataFrame([new_row])], ignore_index=True)
-
-    return df
-
-
-# Make a data frame from a list of TN sentences
-def df_from_tns(df, tnResult):
-    for tnObj in tnResult["truenumbers"]:
-        tn = tnObj["trueStatement"]
-        parts1 = tn.split(" has ")
-        subj = parts1[0].strip()
-        parts2 = parts1[1].split("=")
-        prop = parts2[0].strip()
-        value = parts2[1].strip()
-        add_triple_to_dataframe(df, subj, prop, value)
-    return df
 
 
 ## LLM Tools
