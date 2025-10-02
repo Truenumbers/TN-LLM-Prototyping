@@ -42,21 +42,21 @@ def get_phrases(nSpace, taxType, theQuery, limit, offset):
 
 
 def add_triple_to_dataframe(
-    df: pd.DataFrame, subject_str: str, property_str: str, value_str: str
+    df: dict, subject_str: str, property_str: str, value
 ) -> pd.DataFrame:
     """
-    Ensures required columns exist in the DataFrame and adds a new row with the given subject, property, and value.
+    Ensures required field exist in the dictionary and adds a new row with the given subject, property, and value.
 
     Parameters:
-    - df (pd.DataFrame): The input DataFrame.
+    - df (dict): The input dictionary.
     - subject_str (str): The value to insert into the 'subject' column.
     - property_str (str): The name of the column to insert the value into.
-    - value_str (str): The value to insert into the property column.
+    - value: The value to insert into the property column.
 
     Returns:
     - pd.DataFrame: The updated DataFrame.
     """
-    # print("s ", subject_str, " p ", property_str, " v ", value_str)
+
     # Step 1: Ensure 'subject' column exists
     if "subject" not in df.columns:
         df["subject"] = pd.Series(dtype="object")
@@ -66,21 +66,19 @@ def add_triple_to_dataframe(
         df[property_str] = pd.Series(dtype="object")
 
     # Step 3: put value in property column
-    valNum = value_str[0:-4]
     if subject_str in df["subject"].values:
         # Update the existing row for this subject
-        idx = df.index[df["subject"] == subject_str]
+        idx = df.index[df["subject"] == subject_str].tolist()[0]
         print("row ", idx)
-        df.at[idx, property_str] = float(valNum)
+        df.at[idx, property_str] = value
     else:
         # Add a new row (handled below)
-
-        new_row = {
-            "subject": subject_str,
-            property_str: float(valNum),
-        }
-        print(json.dumps(new_row))
-    df = pd.concat([df, pd.DataFrame([new_row])], ignore_index=True)
+        columnList = df.columns.tolist()
+        dataList = columnList.copy()
+        dataList[columnList.index("subject")] = subject_str
+        dataList[columnList.index(property_str)] = value
+        newFrame = pd.DataFrame([dataList], columns=columnList)
+        df = pd.concat([df, newFrame], ignore_index=True)
 
     return df
 
@@ -94,7 +92,9 @@ def df_from_tns(df, tnResult):
         parts2 = parts1[1].split("=")
         prop = parts2[0].strip()
         value = parts2[1].strip()
-        add_triple_to_dataframe(df, subj, prop, value)
+        if tnObj["value"]["type"] == "numeric":
+            value = float(tnObj["value"]["magnitude"])
+        df = add_triple_to_dataframe(df, subj, prop, value)
     return df
 
 

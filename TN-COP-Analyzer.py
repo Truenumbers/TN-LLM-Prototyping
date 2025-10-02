@@ -10,7 +10,7 @@ app.title = "TN/C2X COP Analyzer"
 
 result = tnt.query_tn("llm-test", "* has *itude", 500, 0)
 
-df = pd.DataFrame(["subject", "latitude", "logitude"])
+df = pd.DataFrame()
 df = tnt.df_from_tns(df, result)
 print(df.to_string())
 
