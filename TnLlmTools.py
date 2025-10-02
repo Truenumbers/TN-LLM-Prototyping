@@ -42,7 +42,7 @@ def get_phrases(nSpace, taxType, theQuery, limit, offset):
 
 
 def add_triple_to_dataframe(
-    df: dict, subject_str: str, property_str: str, value
+    df, subject_str: str, property_str: str, value
 ) -> pd.DataFrame:
     """
     Ensures required field exist in the dictionary and adds a new row with the given subject, property, and value.
@@ -57,9 +57,13 @@ def add_triple_to_dataframe(
     - pd.DataFrame: The updated DataFrame.
     """
 
-    # Step 1: Ensure 'subject' column exists
+    # Step 1: Ensure fixed columns exists
     if "subject" not in df.columns:
         df["subject"] = pd.Series(dtype="object")
+    if "color" not in df.columns:
+        df["color"] = pd.Series(dtype="object")
+    if "marker" not in df.columns:
+        df["marker"] = pd.Series(dtype="object")
 
     # Step 2: Ensure property column exists
     if property_str not in df.columns:
@@ -75,7 +79,20 @@ def add_triple_to_dataframe(
         # Add a new row (handled below)
         columnList = df.columns.tolist()
         dataList = columnList.copy()
+
+        mapIcon = "UNKNOWN"
+        if "ship" in subject_str.lower():
+            mapIcon = "SHIP"
+        if "aircraft" in subject_str.lower():
+            mapIcon = "AIRCRAFT"
+        if "artillery" in subject_str.lower():
+            mapIcon = "ARTILLERY"
+
         dataList[columnList.index("subject")] = subject_str
+        dataList[columnList.index("color")] = (
+            "red" if " ch " in subject_str.lower() else "blue"
+        )
+        dataList[columnList.index("marker")] = mapIcon
         dataList[columnList.index(property_str)] = value
         newFrame = pd.DataFrame([dataList], columns=columnList)
         df = pd.concat([df, newFrame], ignore_index=True)
@@ -84,7 +101,10 @@ def add_triple_to_dataframe(
 
 
 # Make a data frame from a list of TN sentences
-def df_from_tns(df, tnResult):
+
+
+def df_from_tns(tnResult):
+    df = pd.DataFrame()
     for tnObj in tnResult["truenumbers"]:
         tn = tnObj["trueStatement"]
         parts1 = tn.split(" has ")

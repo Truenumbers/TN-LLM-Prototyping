@@ -8,20 +8,23 @@ app.title = "TN/C2X COP Analyzer"
 # Requires Dash 2.17.0 or later
 # First, gather summary data from TN COPs
 
-result = tnt.query_tn("llm-test", "* has *itude", 500, 0)
+result = tnt.query_tn("BQ24_COP", "* has *itude", 500, 0)
 
-df = pd.DataFrame()
-df = tnt.df_from_tns(df, result)
+df = tnt.df_from_tns(result)
 print(df.to_string())
 
 fig = px.scatter_geo(
     df,
-    projection="equirectangular",
+    projection="natural earth",  # "equirectangular",
     lat="latitude",
     lon="longitude",
+    color="color",
+    symbol="marker",
     width=1700,
     height=850,
 )
+
+fig.update_traces(marker=dict(size=10))
 
 app.layout = html.Div(
     children=[
