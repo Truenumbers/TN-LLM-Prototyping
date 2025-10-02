@@ -1,0 +1,177 @@
+## TN Numberspace Archiver 2.6
+
+import requests
+import json
+import sys
+import os
+
+##      - numberspace name (required)
+##      - query  (optional, default = "* has *")
+##      - limit and offset (optional, default = all)
+##
+## It will create a subdirectory named for the numberspace, and dump the TNs, triggers and artifacts retrieved by the query to:
+#    TRUENUMBERS.txt, TRIGGERS.txt and ARTIFACTS.txt in that directory.  If there are artifacts, it will create a subdirectory ./files
+##
+##   >python TnDumpNspace.py testspace JSON "* has *"  1000 0
+
+#tnRestBase = sys.argv[1]
+#tnArtifactEndpt = sys.argv[2]
+
+nspace = sys.argv[1]
+query = "* has *"
+limit = 0
+offset = 0
+
+# decode input args accounting for optional args
+nsDirName = nspace.replace(" ","_").replace("-","_")
+for n in range(2,len(sys.argv)-1):
+    if sys.argv[n][0] == '"':
+        query = sys.argv[n]
+    if type(sys.argv[n]) == int:
+            limit = sys.argv[n]
+            if len(sys.argv) > n+1:
+                offset = sys.argv[n+1]
+            break
+
+print("\n##### Begin archive generation for numberspace " + nspace + " #######\n\n")
+# get api urls from environment or from hardcoded defaults
+try:
+    tnTriggerBase = os.environ["TN_TRIGGER_API_BASE"]  ## Get Trigger API base url
+except KeyError:
+    tnTriggerBase = input("Environmnet var TN_TRIGGER_API_BASE undefined, enter url (Enter for default):")
+    if tnTriggerBase == "":
+        tnTriggerBase = 'http://truenumbers-trigger-api:8082'
+
+try:
+    tnArtifactBase = os.environ["TN_ARTIFACT_API_BASE"]  ## Get Trigger API base url
+except KeyError:
+    tnArtifactBase = input("Environmnet var TN_ARTIFACT_API_BASE undefined, enter url (Enter for default):")
+    if tnArtifactBase == "":
+         tnArtifactBase = 'http://truenumbers-artifact-api:8081'
+
+try:
+    tnRestBase = os.environ["TN_REST_API_BASE"]  ## Get Trigger API base url
+except KeyError:
+    tnRestBase = input("Environmnet var TN_REST_API_BASE undefined, enter url (Enter for default):")
+    if tnRestBase == "":
+         tnRestBase = 'http://truenumbers-rest-api:8080'
+
+print("\nusing APIs:\n")
+print(tnRestBase)
+print(tnArtifactBase)
+print(tnTriggerBase + "\n")
+
+## Run query against given numberspace to obtain TNs to archive
+if limit > 0:
+    parms = { "numberspace":nspace,"limit":limit,"offset":offset}
+else:
+    parms = { "numberspace":nspace}
+            
+res = requests.post(tnRestBase + "/v2/numberflow/tnql", 
+                params = parms,
+                data = {"tnql":query})
+try:
+    retObj = res.json()
+except:
+    sys.exit("\nFailed to read numberspace " + nspace + ", check the name and try again\n")
+
+## scrape retrieved TNs for file ID's for saving files
+## accumulate statement list while we're at it
+try:
+    tnList = retObj["truenumbers"]
+except:
+    sys.exit("\nFailed to read numberspace " + nspace + ", check the name and try again\n\n### Exiting archiver ###\n\n")
+
+stmtList = []
+fidList = []
+prevSubj = ""
+for tn in tnList:
+    stmt = tn["trueStatement"].strip()
+    tags = tn["tagMeta"]
+    if tags != None:
+        tagMeta = tn["tagMeta"]
+        tagList = []
+        for tag, meta in tagMeta.items():
+            if meta["immutable"]:
+                tagList.append(tag)
+        if len(tagList) > 0:
+             if stmt[-1] == ";":
+                stmt = stmt[0:-1]
+                stmt += " (" + ", ".join(tagList) + ")"
+    stmtParts = stmt.split(" has ")
+    if stmtParts[0].strip() == prevSubj:
+        stmt = " and has " + stmtParts[1]
+    else:
+        prevSubj = stmtParts[0].strip()
+        stmt = "\n" + stmt
+    if stmt[-1] != ";":
+        stmt = stmt + ";"
+    stmtList.append(stmt.replace("  has "," has "))
+    if tn["value"]["type"] == "artifact":
+        fidList.append(tn["value"]["value"])
+
+## write the file of TNs in TN or JSON format
+try:
+    os.mkdir(nsDirName)
+except:
+    keyInput = input("\nDirectory " + nsDirName + " exists, do you want to proceed? (y/n): " )
+    if keyInput[0].lower() == "n":
+        sys.exit("### User exit #####\n")
+outFname = nsDirName + "/TRUENUMBERS.txt"
+stmtOutFname = nsDirName + "/STATEMENTS.txt"
+if len(tnList) > 0:
+    with open(outFname, 'w') as file:
+        json.dump(retObj, file)
+    with open(stmtOutFname, 'w') as file:
+        file.write("\n".join(stmtList))
+else:
+    print("\nNo truenumbers in numberspace\n")
+# now write artifacts
+if len(fidList) > 0:
+    print("\n file-valued TNs found, writing files to artifact API\n")
+    filedir = nsDirName + "/files"
+    try:
+        os.mkdir(filedir)
+    except:
+        print("\nNOTE: file subdirectory exists\n")
+    fileList = []
+    writtenList = []
+    for id in fidList:
+        if id not in writtenList:
+            fileRes = requests.get(tnArtifactBase + "/v1/artifact/" + id)
+            fname = id.split(":").pop()
+            fnameParts = fname.split("_")
+            lastPart = fnameParts.pop()
+            fixedFname = "_".join(fnameParts) + "." + lastPart
+            print("Writing ",fixedFname)
+            writtenList.append(id)
+            fileList.append({"name":fixedFname, "id":id})
+            theFilePath = "./" + filedir + "/"
+            response = requests.get(tnArtifactBase + "/v1/artifact/" + id)
+            if response.status_code == 200:
+                # Save the content to a file
+                with open(theFilePath + fixedFname, "w") as f:
+                    f.write(response.text)
+            else:
+                print("Error retrieving artifact from API:", response.status_code)
+    print("--> ",len(fileList)," artifacts saved")
+            
+## Lastly, write trigger restore file
+# Have to read all the triggers, then build a smaller array with only those for this numberspace
+
+res = requests.get(tnTriggerBase + "/v1/trigger-definitions")
+trigArray = res.json()["triggerDefinitions"]
+thisTrigArray = []
+for trig in trigArray:
+    trigSpace = str(trig["numberspace"])
+    if trigSpace.endswith("/" + nspace):
+        thisTrigArray.append(trig)
+if len(thisTrigArray) > 0:
+    # write the trigger collection
+    with open(nsDirName + "/TRIGGERS.txt", "w") as fm:
+        json.dump({"triggerDefinitions":thisTrigArray}, fm)
+    print("\n" + str(len(thisTrigArray)) + " Triggers for numberspace ",nspace," archived to TRIGGERS.txt\n")
+else:
+    print("\nNo triggers for numberspace ",nspace," to archivet\n")
+
+print("#### End archive of numberspace " + nspace + " ###########\n")
