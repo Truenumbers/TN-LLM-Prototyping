@@ -88,10 +88,16 @@ def add_triple_to_dataframe(
         if "artillery" in subject_str.lower():
             mapIcon = "ARTILLERY"
 
+        flagColor = "UNKNOWN"
+        if " ch " in subject_str.lower():
+            flagColor = "China"
+        if " us " in subject_str.lower():
+            flagColor = "USA"
+        if " sw " in subject_str.lower():
+            flagColor = "Sweden"
+
         dataList[columnList.index("subject")] = subject_str
-        dataList[columnList.index("color")] = (
-            "red" if " ch " in subject_str.lower() else "blue"
-        )
+        dataList[columnList.index("color")] = flagColor
         dataList[columnList.index("marker")] = mapIcon
         dataList[columnList.index(property_str)] = value
         newFrame = pd.DataFrame([dataList], columns=columnList)
